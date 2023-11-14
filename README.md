@@ -23,9 +23,11 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 7.Get the values of Mean square error, r2 and data prediction.
 
 ## Program:
+```
+*/
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
-Developed by: VELAN D
-RegisterNumber:  212222040176
+Developed by: ANN BLESSY PHILIPS
+RegisterNumber:  212222040008
 data=pd.read_csv("Salary Data.csv")
 data.head()
 data.tail()
@@ -58,7 +60,8 @@ mse
 r2=metrics.r2_score(y_test,y_pred)
 r2
 dtr.predict([[44,0,2,130,20]])
-
+*/
+```
 ## Output:
 
 READ CSV HEAD FILE:
